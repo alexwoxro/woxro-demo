@@ -35,8 +35,6 @@ const Hero = () => {
           <Button>Schedule a Meeting</Button>
 
 
-
-
         </div>
 
       </div >
