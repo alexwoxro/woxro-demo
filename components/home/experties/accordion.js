@@ -24,16 +24,16 @@ const ExpertiesAccordion = ({ data }) => {
                 <div className="border-b border-[#ABABAB] lg:pb-12 mt-6 pb-6" key={index}>
                     <div className="flex justify-between items-center"
                         onClick={() => toggleSection(index)} >
-                        <p className="font-roboto lg:text-4xl font-thin text-2xl ">{data.name}</p>
+                        <p className="font-roboto mt-[1.563rem] text-2xl lg:text-[2.188rem] font-extralight leading-[2.563rem] ">{data.name}</p>
                         <div>
                             {openIndex === index ? <Image src={minus} alt="minus" /> : <Image src={plus} alt="plus" />}
                         </div>
                     </div>
-                    <div className="mt-3.5 font-roboto  font-thin lg:text-[1.2rem] text-sm">
+                    <div className="text-[#ABABAB] mt-[0.938rem] font-roboto  font-light lg:text-[1.25rem] text-sm leading-[1.75rem]">
                         {data.title}
                     </div>
                     {openIndex === index &&
-                        <div className="font-roboto font-thin lg:text-[1.2rem] mt-12 text-sm">
+                        <div className="text-[#ABABAB] mt-12 font-roboto  font-light lg:text-[1.25rem] text-sm leading-[1.75rem]">
                             {data.description}
                         </div>}
                 </div>

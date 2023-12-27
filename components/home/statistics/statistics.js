@@ -4,15 +4,13 @@ import btn_black from '/assets/icons/button/btn-r-arrow-black.svg'
 
 
 
-
-
-
-
 const Statistics = () => {
     return (
         <div className='bg-black text-white px-[100px]'>
 
-            <div className=' flex pt-56 justify-between'>
+
+            <div className=' flex pt-[12.5rem] justify-between'>
+
                 <div>
                     <p className='mt-3.5 font-roboto text-[2.813rem] font-extralight leading-normal'>Client Statistics</p>
                     <p className='mt-3.5 tracking-[1px] font-normal font-poppins text-[0.938rem] leading-[1.37rem] text-[#ABABAB]'>We actively collaborate with clients at multiple stages of their transformative journeys,<br />
@@ -27,22 +25,22 @@ const Statistics = () => {
 
                 <div>
                     <div>
-                        <p className='font-poppins font-extralight text-[5rem]'>124+</p>
-                        <p className='font-poppins font-extralight text-[1.25rem] leading-7'>Completed Projects</p>
+                        <p className='font-poppins font-thin text-[5rem] leading-[7.5rem]'>124+</p>
+                        <p className='font-roboto font-light text-[1.25rem] leading-[1.75rem] tracking-[1px] text-[#ABABAB]'>Completed Projects</p>
                     </div>
                     <div>
-                        <p className='font-poppins font-extralight text-[5rem]'>900+</p>
-                        <p className='font-poppins font-extralight text-[1.25rem] leading-7'>Sales Revenue</p>
+                        <p className='font-poppins font-thin text-[5rem] leading-[7.5rem]'>900+</p>
+                        <p className='font-roboto font-light text-[1.25rem] leading-[1.75rem] tracking-[1px] text-[#ABABAB]'>Sales Revenue</p>
                     </div>
                 </div>
                 <div>
                     <div>
-                        <p className='font-poppins font-extralight text-[5rem]'>25M</p>
-                        <p className='font-poppins font-extralight text-[1.25rem] leading-7'>Ad Spends</p>
+                        <p className='font-poppins font-thin text-[5rem] leading-[7.5rem]'>25M</p>
+                        <p className='font-roboto font-light text-[1.25rem] leading-[1.75rem] tracking-[1px] text-[#ABABAB]'>Ad Spends</p>
                     </div>
                     <div>
-                        <p className='font-poppins font-extralight text-[5rem]'>5X+</p>
-                        <p className='font-poppins font-e3xtralight text-[1.25rem] leading-7'>Global Outreach </p>
+                        <p className='font-poppins font-thin text-[5rem] leading-[7.5rem]'>5X+</p>
+                        <p className='font-roboto font-light text-[1.25rem] leading-[1.75rem] tracking-[1px] text-[#ABABAB]'>Global Outreach </p>
                     </div>
                 </div>
 
@@ -199,9 +197,8 @@ const Statistics = () => {
 
 
 
-            <div className='max-w-[1503px] mt-[12.5rem] font-roboto font-extralight leading-none text-[3.43rem] text-[#5D5D5D] 
-             h-fit'>
-
+            <div className='max-w-[1503px] mt-[12.5rem] font-roboto font-extralight leading-none 
+            text-[3.43rem] text-[#5D5D5D] h-fit'>
                 To achieve and maintain high standards we are<br />
                 committed to investing in the most talented IT support<br />
                 specialists in India, with the <span className='text-white'> experience, creativity</span>, and<br />

@@ -4,11 +4,11 @@ import WorkCard from "./work-card"
 
 const Work = () => {
     return (
-        <div className="text-white bg-black px-[100px]">
+        <div className="text-white bg-black px-[6.25rem]">
             <div>
-                <h2 className="font-roboto font-thin text-[2.8rem]">Our Works</h2>
+                <h2 className=" font-roboto text-[2.813rem] font-extralight leading-normal">Our Works</h2>
             </div>
-            <p className="font-poppins font-extralight text-[1rem] leading-6">
+            <p className="mt-3.5 tracking-[1px] font-normal font-poppins text-[0.938rem] leading-[1.375rem] text-[#ABABAB]">
                 To achieve and maintain high standards we are committed to investing in the most <br />
                 talented IT support specialists in India, with the experience, creativity, and <br />
                 qualifications to exceed the highest expectations. We are known for our works and we <br />
