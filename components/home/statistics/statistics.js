@@ -72,7 +72,7 @@ const Statistics = () => {
                     </div>
                     <div className='col-span-4'>
                         <Image src='/images/team/loop.png' className='w-fit h-fit' alt='loop-png' width={500} height={500} />
-                        <p className='leading-5 text-[#9A9A9A]  font-roboto text-[1.125rem] font-light'>Events | Less Than A Minute Read</p>
+                        <p className='mt-5 leading-5 text-[#9A9A9A]  font-roboto text-[1.125rem] font-light'>Events | Less Than A Minute Read</p>
                         <p className='font-roboto leading-7 text-[1.25rem] font-light'>Building Brand Loyalty Through Social Media :  Talking about Strapi Units.</p>
                         <p className='leading-5 text-[#959595] font-poppins font-normal text-[0.9rem]'>Remain in the loop and relevant, make sure to read our monthly d relevant, make sure...</p>
                     </div> <div className='col-span-4'>
