@@ -7,7 +7,7 @@ const Expertise = () => {
     return (
         <div className="bg-black grid grid-cols-12 text-white ">
 
-            <div className="col-span-12 lg:col-span-6 lg:px-[6.25rem] flex flex-col justify-center px-10">
+            <div className="col-span-12 lg:col-span-6 lg:px-[6.25rem] flex flex-col justify-center px-5">
                 <div>
                     <p className="mt-3.5 text-[#959595] font-poppins text-[0.75rem] tracking-[0.125rem] font-normal leading-[1.125rem]">OUR EXPERTISE</p>
                     <p className="mt-3.5 text-2xl font-roboto lg:text-[2.813rem] font-extralight leading-normal">

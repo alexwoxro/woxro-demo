@@ -149,10 +149,10 @@ export const FOOTER_ICONS = [
         name: 'web',
         src: '/icons/footer/7.svg'
     }, ,
-    {
-        name: 'rating',
-        src: '/icons/footer/8.svg'
-    },
+    // {
+    //     name: 'rating',
+    //     src: '/icons/footer/8.svg'
+    // },
 ]
 
 

@@ -22,12 +22,12 @@ const Hero = () => {
           <h1 className='font-roboto font-thin text-2xl lg:text-[3.438rem] leading-3 lg:leading-[4rem] mt-5 lg:mt-3.5'>
             World-Class Digital Services</h1>
 
-          <div className='text-center font-poppins font-thin lg:font-normal leading-4  lg:leading-[1.563rem] text-xs
+          <div className='text-center font-poppins font-normal leading-4  lg:leading-[1.563rem] text-xs
            lg:text-[0.938rem] mt-5  lg:mt-3.5'>We specialize in crafting unforgettable brands that establish a profound connection <br />
             with your audience, elevating customer relationships through a seamless blend of <br />
             strategic design and cutting-edge technology.</div>
 
-          <div className='border flex w-full max-w-[410px] items-center justify-end py-[1.25rem] gap-[4.4rem] px-[35px] mt-[2.188rem] '>
+          <div className='border flex w-full max-w-[410px] items-center justify-end py-[1.25rem] gap-[4.4rem] px-5 lg:px-[2.188rem] mt-[2.188rem] '>
             <p className='text-[0.938rem] font-poppins font-normal leading-[1.5rem]'>Schedule a Meeting</p>
             <Image src={btn} alt="background image" />
           </div>
