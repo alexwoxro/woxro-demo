@@ -1,3 +1,140 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navmenu {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.navmenu ul {
+  padding-left: 50px;
+  position: relative;
+}
+
+.navmenu ul::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: calc(100% - 58px);
+  left: 40px;
+  top: 0px;
+
+  z-index: -1;
+  margin-top: 29px;
+  border: dotted;
+  border-width: 1px;
+}
+
+.navmenu ul li {
+  padding: 30px 0;
+  padding-left: 20px;
+}
+
+.navmenu ul li p {
+  position: relative;
+}
+
+.navmenu ul li p:before {
+  content: "";
+  position: absolute;
+  background: white;
+  width: 35px;
+  height: 35px;
+  left: -45px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50px;
+}
+
+.container {
+  /* background-color: blueviolet;
+  height: 100vh;
+  width: 100vw; */
+}
+
+.content {
+  /* align-items: center;
+  width: 400px; */
+  display: flex;
+  gap: 5px;
+}
+
+.progressbar {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  position: relative;
+  border-left: dotted;
+}
+
+.circle {
+  background-color: aquamarine;
+  color: black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -16px;
+}
+
+/* fffffffffffffff */
+/* container {
+  background-color: blueviolet;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content {
+  align-items: center;
+  width: 400px;
+}
+
+.progressbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.progressbar::before {
+  content: "";
+  position: absolute;
+  background-color: red;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  border-radius: 5px;
+  height: 4px;
+  width: 100%;
+  z-index: -1;
+  transition: 0.4sec ease;
+}
+
+.progress {
+  position: absolute;
+  background-color: blue;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  border-radius: 5px;
+  height: 4px;
+  width: 50%;
+  z-index: -1;
+  transition: 0.4sec ease;
+}
+
+.circle {
+  background-color: aquamarine;
+  color: black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid pink;
+} */

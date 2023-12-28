@@ -5,7 +5,7 @@ import { FOOTER_ICONS, HANDBURGER_LINKS } from "@/constants";
 import Link from "next/link";
 
 const HandBurgerMenu = ({ setIsOpen }) => {
-    
+
     return (
 
         <nav className="inset-0 fixed bg-black w-full z-[999] px-28 py-10 flex flex-col justify-between  ">

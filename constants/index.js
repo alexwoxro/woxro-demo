@@ -153,10 +153,7 @@ export const FOOTER_ICONS = [
         name: 'rating',
         src: '/icons/footer/8.svg'
     },
-
 ]
-
-
 
 
 //choose us

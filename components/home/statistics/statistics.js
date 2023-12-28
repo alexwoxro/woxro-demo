@@ -8,7 +8,6 @@ const Statistics = () => {
     return (
         <div className='bg-black text-white px-[100px]'>
 
-
             <div className=' flex pt-[12.5rem] justify-between'>
 
                 <div>
@@ -75,7 +74,6 @@ const Statistics = () => {
 
 
             <div className='mt-[12.5rem]'>
-
                 <div>
                     <p className='text-[#959595] font-poppins text-[0.75rem] tracking-[0.125rem] font-normal leading-[1.125rem]'>INSIGHTS</p>
                     <p className='mt-3.5 font-roboto text-[2.813rem] font-extralight leading-normal '>Stay in the loop !</p>
@@ -83,8 +81,6 @@ const Statistics = () => {
                     >Remain in the loop and relevant, make sure to read our monthly blogs on technology-<br />
                         related topics. We keep them concise, informative, and to the point.</p>
                 </div>
-
-
                 <div className='grid grid-cols-12 mt-12 gap-5'>
                     <div className='col-span-4'>
                         <Image src='/images/team/loop.png' className='w-full h-fit' alt='loop-png' width={500} height={500} />
@@ -109,18 +105,12 @@ const Statistics = () => {
             </div>
 
 
-
-
-
             <div className='mt-[12.5rem] '>
                 <div className='max-w-3xl'>
                     <p className='text-[#959595] font-poppins text-[0.75rem] tracking-[0.125rem] font-normal leading-[1.125rem]'>WE ARE PROCESS NERDS</p>
                     <p className='font-roboto text-[2.813rem] font-extralight leading-normal '>We Work with all industries</p>
                     <p className='text-[#959595] tracking-[1px] font-normal font-poppins text-[0.9rem] leading-normal'>We support global brands, startups and enterprises that use innovation and human-centered design to create meaningful customer experiences.</p>
                 </div>
-
-
-
 
                 <div className='grid grid-cols-12 mt-12 gap-12'>
 
@@ -175,7 +165,6 @@ const Statistics = () => {
                     <h2 className='font-poppins font-normal text-xs leading-[1.125rem] text-[#5D5D5D] tracking-[2px]'>DIGITAL SOLUTIOND FOR YOUR BUSINESS</h2>
                     <p className='mt-3.5 font-roboto font-extralight text-[2.8rem] leading-[3.25rem] '>Let's build or improve <br /> your digital product</p>
 
-
                     <div className='flex gap-6 mt-12 font-poppins text-[0.9rem] font-normal'>
 
                         <div className='border py-5 flex w-full items-center justify-center'>
@@ -189,13 +178,7 @@ const Statistics = () => {
                     </div>
 
                 </div>
-
-
             </div>
-
-
-
-
 
             <div className='max-w-[1503px] mt-[12.5rem] font-roboto font-extralight leading-none 
             text-[3.43rem] text-[#5D5D5D] h-fit'>
@@ -206,11 +189,6 @@ const Statistics = () => {
                 known for our works and we hope you enjoy looking at<br />
                 some of <span className='text-white'> our recent works</span>
             </div>
-
-
-
-
-
         </div>
 
     )

@@ -1,12 +1,12 @@
 
 import React from 'react'
 import bg from '/assets/images/hero/hero-bg-image.png'
-
 import Image from 'next/image'
 import btn from '/assets/icons/button/btn-r-arrow.svg'
-import Button from '../button/button'
+
 
 const Hero = () => {
+
   return (
     <>
       <div className="relative w-full h-screen ">
@@ -27,13 +27,10 @@ const Hero = () => {
             with your audience, elevating customer relationships through a seamless blend of <br />
             strategic design and cutting-edge technology.</div>
 
-
-
-          
-
-
-          <Button>Schedule a Meeting</Button>
-
+          <div className='border flex w-full max-w-[410px] items-center justify-end py-[1.25rem] gap-[4.4rem] px-[35px] mt-[2.188rem] '>
+            <p className='text-[0.938rem] font-poppins font-normal leading-[1.5rem]'>Schedule a Meeting</p>
+            <Image src={btn} alt="background image" />
+          </div>
 
         </div>
 
